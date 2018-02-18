@@ -1,0 +1,19 @@
+{
+    "name": "vacation/module",
+    "description": "Vacation Module",
+    "authors": [
+        {
+            "name": "Yuriy Hritsaiy",
+            "email": "yu.hritsaiy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "library\\": "library/",
+            "module\\": "module/"
+        }
+    }
+}
